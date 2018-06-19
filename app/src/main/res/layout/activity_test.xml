@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question 1"
+        android:textSize="24sp"
+        android:layout_gravity="center|top"/>
+
+    <ImageView
+        android:id="@+id/iv_sign_test"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:padding="8dp"
+        android:id="@+id/tv_objective"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Make the above Image"/>
+
+    <com.wonderkiln.camerakit.CameraView
+        android:id="@+id/test_cameraview"
+        android:layout_width="match_parent"
+        android:layout_height="250dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:padding="8dp"
+            android:layout_height="50dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="Accurate By"/>
+
+        <TextView
+            android:id="@+id/test_accuracy"
+            android:textSize="24sp"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="2"/>
+
+        <TextView
+            android:id="@+id/tv_eval"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:visibility="invisible"
+            android:text="Right/Wrong"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_toogle_test"
+            android:text="Toggle Camera"/>
+
+        <Button
+            android:id="@+id/btn_detect_test"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Detect" />
+
+        <Button
+            android:id="@+id/btn_next_test"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">sih</string>
+    <string name="toggle_camera">Toggle Camera</string>
+    <string name="detect_object">Detect Object</string>
+    <string name="title_activity_test">Test</string>
+    <string name="about_isl">   The Sign Language is Native to India, Pakistan, Bangladesh.
+                                There are 2.7 million Native speakers in India.
+                                There are different Dialects of ISL and they are
+                                Bangalore-Madras Sign Language
+                                Bombay Sign Language
+                                Calcutta Sign Language
+                                Delhi Sign Language
+                                North West Frontier Province Sign Language
+                                Punjab-Sindh Sign Language
+    </string>
+</resources>
